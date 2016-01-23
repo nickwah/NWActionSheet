@@ -36,7 +36,6 @@
     view.textColor = style == NWActionSheetStyleDestroy ? [UIColor colorWithRed:0.8 green:0 blue:0 alpha:1] : [UIColor colorWithRed:0 green:0.6 blue:1.0 alpha:1];
     view.textAlignment = NSTextAlignmentCenter;
     [self addButtonWithView:view actionBlock:callback ?: ^{
-        [self dismiss];
     }];
 }
 
